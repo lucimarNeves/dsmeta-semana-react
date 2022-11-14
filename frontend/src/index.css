@@ -9,12 +9,14 @@
 
 :root {
   --primary-color: #000;
-  --secondary-color: #fff;
+  --text-secondary-color: #fff;
+  --color-button: rgba(255, 107, 114, 0.1);
+  --border-color: #ff6b72;
 }
 body,
 html {
   background-color: var(--primary-color);
-  color: var(--secondary-color);
+  color: var(--text-secondary-color);
 }
 
 a,
